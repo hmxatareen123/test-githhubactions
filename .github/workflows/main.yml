@@ -29,5 +29,9 @@ jobs:
           
            
             cd /home/ubuntu/ &&
-            mkdir testapp
+            mkdir testapp &&
+            sudo apt update
+            sudo apt install nginx
+
+
           '
